@@ -4,9 +4,9 @@ from dataclasses import dataclass
 from typing import Any, Optional, Type
 
 # Constants
-ODOO_PATH = r'D:\ODOOs\COMMUNITY\odoo19'
 DB_NAME = 'odoo_db'
-ODOO_CONFIG_PATH = r'D:\CUSTOMs\MY\Odoopyter\odoo.conf'
+ODOO_CONFIG_PATH = r'.\odoo.conf'
+ODOO_PATH = r'D:\ODOOs\COMMUNITY\odoo19'
 
 logger = logging.getLogger(__name__)
 
